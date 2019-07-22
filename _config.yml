@@ -1,0 +1,52 @@
+# Basic
+title: 剑首一吷
+subtitle: Hello World！
+description: Welcome！
+# 头像里面的标题
+avatarTitle: Gjsword
+# 头像里面的描述
+avatarDesc: 技术积累
+url: "http://gjsword.com"
+
+# Comment
+comment:
+
+# Social
+social:
+    weibo: gjsword 
+    github: gjsword
+    # zhihu: gjsword
+    mail: gjsword@gmail.com
+
+
+
+
+#
+
+
+permalink: /:year/:month/:title/
+# Format
+highlighter: rouge
+
+textColor: #FF0000
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: clear
+
+# The blog button should not be removed.
+blog_button:
+    title: 博客主页
+
+# Navigation buttons in the front page.s
+nav:
+    - {title: 所有文章, description: archive, url: '/archive'}   
+    - {title: 标签, description: tags, url: '/tags'}      
+    - {title: 关于我, description: about, url: '/about'}      
+    
+
+# Pagination
+gems: [jekyll-paginate,jekyll-sitemap]
+paginate: 20
+paginate_path: "page/:num/"
+
+
