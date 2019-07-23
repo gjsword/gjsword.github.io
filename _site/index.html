@@ -159,8 +159,8 @@
   <ol class="post-list">
     
     <li>
-      <h2 class="post-list__post-title post-title"><a href="/2019/05/HEXO%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" title="访问 Redis 基础">Redis 基础</a></h2>
-      <p class="excerpt">正文：1.底层实现：SDS:区别于C语言的字符数组，额外增加了len，free信息。可以O(1)复杂度获取长度；分配空间更加合理；防止缓冲区溢出；减少重新分配内存的次数；空间预分配；惰性释放；二进制安全链表:双向链表；列表键值对的底层实现之一；字典：就是一个Map，用于redis的数据库，同时是哈希键值对的底层实现之一；结构如下：typedef struct dict {    dictType type;    void *privdata;    dictht ht[2];    lo...&hellip;</p>
+      <h2 class="post-list__post-title post-title"><a href="/2019/05/Redis%E5%9F%BA%E7%A1%80/" title="访问 Redis基础">Redis基础</a></h2>
+      <p class="excerpt">底层实现SDS:  区别于C语言的字符数组，额外增加了len，free信息。  可以O(1)复杂度获取长度；  分配空间更加合理；  防止缓冲区溢出；  减少重新分配内存的次数；  空间预分配；  惰性释放；  二进制安全各类数据结构：链表：​	双向链表；列表键值对的底层实现之一；字典：​	就是一个Map，用于redis的数据库，同时是哈希键值对的底层实现之一；结构如下：typedef struct dict {     dictType *type;     void *privdata...&hellip;</p>
       <div class="post-list__meta">        
         <time datetime="2019-05-01 00:00:00 +0800" class="post-list__meta--date date">
           <img src="/images/calendar.png" width="20px" /> 
@@ -173,7 +173,7 @@
             <span class="post-list__meta--tags-right">博客</span>
           </div>
           <div class = "post-list-small-mate">
-          <a class="btn-border-small" href=/2019/05/HEXO%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/>阅读全文 » </a>
+          <a class="btn-border-small" href=/2019/05/Redis%E5%9F%BA%E7%A1%80/>阅读全文 » </a>
           </div>
       </div>
       <hr class="post-list__divider" />
